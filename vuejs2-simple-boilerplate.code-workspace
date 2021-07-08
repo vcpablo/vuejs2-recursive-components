@@ -1,0 +1,48 @@
+{
+    "folders": [{
+      "path": "."
+    }],
+    "settings": {
+      "editor.formatOnSave": false,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "typescript.format.enable": false,
+      "javascript.format.insertSpaceAfterCommaDelimiter": false,
+      "javascript.format.semicolons": "remove",
+      "eslint.alwaysShowStatus": true,
+      "eslint.options": {
+        "extensions": [
+          ".html",
+          ".js",
+          ".vue",
+          ".jsx"
+        ]
+      },
+      "eslint.validate": [
+        "vue",
+        "html",
+        "hollowtree.vue-snippets",
+        "javascript",
+        "javascriptreact",
+        "vue-html"
+      ],
+      "vetur.validation.script": false,
+      "vetur.validation.template": false,
+      "cSpell.enabled": true,
+      "cSpell.enableFiletypes": [
+        "vue"
+      ]
+    },
+    "extensions": {
+      "recommendations": [
+        "jcbuisson.vue",
+        "hollowtree.vue-snippets",
+        "dariofuzinato.vue-peek",
+        "octref.vetur",
+        "dbaeumer.vscode-eslint",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
